@@ -13,6 +13,11 @@ import time
 import cv2
 import os
 
+font = cv2.FONT_HERSHEY_TRIPLEX
+font2 = cv2.FONT_HERSHEY_COMPLEX_SMALL
+font3 = cv2.FONT_HERSHEY_SCRIPT_COMPLEX
+font4 = cv2.FONT_HERSHEY_SIMPLEX
+
 def detect_and_predict_mask(frame, faceNet, maskNet):
 	# grab the dimensions of the frame and then construct a blob
 	# from it
@@ -113,6 +118,9 @@ while True:
 	# grab the frame from the threaded video stream and resize it
 	# to have a maximum width of 400 pixels
 	frame = vs.read()
+
+	cv2.putText(frame, "AI Mask Detection System for COVID-19", (15, 30), font4, 0.8, (255, 255, 0), 2, cv2.LINE_AA)
+
 	frame = imutils.resize(frame, width=800)
 
 	# detect faces in the frame and determine if they are wearing a
@@ -128,8 +136,25 @@ while True:
 
 		# determine the class label and color we'll use to draw
 		# the bounding box and text
-		label = "Mask" if mask > withoutMask else "No Mask"
-		color = (0, 255, 0) if label == "Mask" else (0, 0, 255)
+		# label = "Mask" if mask > withoutMask else "No Mask"
+		# color = (0, 255, 0) if label == "Mask" else (0, 0, 255)
+
+		# red = (0, 0, 255)
+		# green = (0, 255, 0)
+		# blue = (255, 0, 0)
+		# white = (255, 255, 255)
+		# yellow = (0, 255, 255)
+		# cyan = (255, 255, 0)
+		# magenta = (255, 0, 255)
+
+		if mask > withoutMask :
+			label = "Mask"
+			color = (0, 255, 0)
+			cv2.putText(frame, "ACCESS GRANTED, MASK ON", (10, 50), font4, 0.8, color, 2, cv2.LINE_AA)
+		else:
+			label = "No Mask"
+			color = (0, 0, 255)
+			cv2.putText(frame, "ACCESS DENIED, No FACE-MASK", (10, 50), font4, 0.8, color, 2, cv2.LINE_AA)
 
 		# include the probability in the label
 		label = "{}: {:.2f}%".format(label, max(mask, withoutMask) * 100)
