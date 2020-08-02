@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="99d41f70-b521-43a5-a615-245993268444" name="Default Changelist" comment="" />
+    <list default="true" id="99d41f70-b521-43a5-a615-245993268444" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/detect_mask_video_run.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +26,12 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.train_mask_detector">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.detect_mask_video_run">
     <configuration name="detect_mask_video" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="face-mask-detector" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -45,7 +53,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="train_mask_detector" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="detect_mask_video_run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="face-mask-detector" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -57,7 +65,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_mask_detector.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/detect_mask_video_run.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -67,12 +75,12 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.train_mask_detector" />
+      <item itemvalue="Python.detect_mask_video_run" />
       <item itemvalue="Python.detect_mask_video" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.train_mask_detector" />
+        <item itemvalue="Python.detect_mask_video_run" />
         <item itemvalue="Python.detect_mask_video" />
       </list>
     </recent_temporary>
@@ -91,14 +99,16 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596293281057">
-      <screen x="0" y="23" width="1440" height="839" />
+    <state x="184" y="160" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596371479322">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="184" y="154" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.839@0.23.1440.839" timestamp="1596293281057" />
+    <state x="184" y="160" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1596371479322" />
     <state x="1081" y="473" key="#com.intellij.execution.impl.EditConfigurationsDialog/3840.720.2560.1380/0.0.2560.1400@0.0.2560.1400" timestamp="1590748681100" />
-    <state x="1143" y="491" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589446320945">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="643" y="331" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596370173290">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
+    <state x="643" y="331" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1596370173290" />
     <state x="1143" y="491" key="#com.intellij.fileTypes.FileTypeChooser/3840.720.2560.1380/0.0.2560.1400@0.0.2560.1400" timestamp="1589446320945" />
     <state x="406" y="57" key="#detect_mask_image" timestamp="1596155215494">
       <screen x="0" y="23" width="1440" height="839" />
@@ -112,25 +122,29 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1406" y="573" key="FileChooserDialogImpl/3840.720.2560.1380/0.0.2560.1400@0.0.2560.1400" timestamp="1590749396432" />
-    <state width="1419" height="159" key="GridCell.Tab.0.bottom" timestamp="1596293283465">
+    <state width="1041" height="90" key="GridCell.Tab.0.bottom" timestamp="1596371891582">
       <screen x="0" y="23" width="1440" height="839" />
     </state>
-    <state width="1419" height="159" key="GridCell.Tab.0.bottom/0.23.1440.839@0.23.1440.839" timestamp="1596293283465" />
+    <state width="1041" height="90" key="GridCell.Tab.0.bottom/0.23.1440.839@0.23.1440.839" timestamp="1596371891582" />
+    <state width="1041" height="291" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1596371704064" />
     <state width="1727" height="175" key="GridCell.Tab.0.bottom/3840.720.2560.1380/0.0.2560.1400@0.0.2560.1400" timestamp="1596172660392" />
-    <state width="1419" height="159" key="GridCell.Tab.0.center" timestamp="1596293283464">
+    <state width="1041" height="90" key="GridCell.Tab.0.center" timestamp="1596371891582">
       <screen x="0" y="23" width="1440" height="839" />
     </state>
-    <state width="1419" height="159" key="GridCell.Tab.0.center/0.23.1440.839@0.23.1440.839" timestamp="1596293283464" />
+    <state width="1041" height="90" key="GridCell.Tab.0.center/0.23.1440.839@0.23.1440.839" timestamp="1596371891582" />
+    <state width="1041" height="291" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1596371704063" />
     <state width="1727" height="175" key="GridCell.Tab.0.center/3840.720.2560.1380/0.0.2560.1400@0.0.2560.1400" timestamp="1596172660391" />
-    <state width="1419" height="159" key="GridCell.Tab.0.left" timestamp="1596293283464">
+    <state width="1041" height="90" key="GridCell.Tab.0.left" timestamp="1596371891581">
       <screen x="0" y="23" width="1440" height="839" />
     </state>
-    <state width="1419" height="159" key="GridCell.Tab.0.left/0.23.1440.839@0.23.1440.839" timestamp="1596293283464" />
+    <state width="1041" height="90" key="GridCell.Tab.0.left/0.23.1440.839@0.23.1440.839" timestamp="1596371891581" />
+    <state width="1041" height="291" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1596371704063" />
     <state width="1727" height="175" key="GridCell.Tab.0.left/3840.720.2560.1380/0.0.2560.1400@0.0.2560.1400" timestamp="1596172660390" />
-    <state width="1419" height="159" key="GridCell.Tab.0.right" timestamp="1596293283465">
+    <state width="1041" height="90" key="GridCell.Tab.0.right" timestamp="1596371891582">
       <screen x="0" y="23" width="1440" height="839" />
     </state>
-    <state width="1419" height="159" key="GridCell.Tab.0.right/0.23.1440.839@0.23.1440.839" timestamp="1596293283465" />
+    <state width="1041" height="90" key="GridCell.Tab.0.right/0.23.1440.839@0.23.1440.839" timestamp="1596371891582" />
+    <state width="1041" height="291" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1596371704063" />
     <state width="1727" height="175" key="GridCell.Tab.0.right/3840.720.2560.1380/0.0.2560.1400@0.0.2560.1400" timestamp="1596172660391" />
     <state width="1727" height="175" key="GridCell.Tab.1.bottom" timestamp="1596172660393">
       <screen x="0" y="0" width="2560" height="1400" />
